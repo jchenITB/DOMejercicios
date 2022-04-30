@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Inserta files en una taula</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <main>
+        <table id="Taula" border="1">
+            <tr>
+                <td>fila 1 cel·la 1</td>
+                <td>fila 1 cel·la 2</td>
+            </tr>
+            <tr>
+                <td>Fila 2 cel·la 1</td>
+                <td>Fila 2 cel·la 2</td>
+            </tr>
+        </table><br>
+        <label for="fila">Fila</label>
+        <input type="number" id="fila">
+        <label for="cela">Cel·la</label>
+        <input type="number" id="cela">
+        <br><br>
+        <label for="valor">Valor</label>
+        <textarea id="valor" name="valor" cols="50" rows="10"></textarea>
+        
+        <br>
+        <button onclick="insertValue()"> INSERT </button>
+    </main>
+</body>
+
+</html>
